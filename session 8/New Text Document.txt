@@ -1,0 +1,585 @@
+Microsoft Windows [Version 10.0.22631.5126]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac converterDemo.java
+converterDemo.java:20: error: incompatible types: possible lossy conversion from double to long
+                long lo = 452.25468;
+                          ^
+converterDemo.java:22: error: incompatible types: possible lossy conversion from double to float
+                float fl = 65.25468;
+                           ^
+2 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac converterDemo.java
+converterDemo.java:20: error: incompatible types: possible lossy conversion from double to long
+                long lo = 452.25;
+                          ^
+converterDemo.java:22: error: incompatible types: possible lossy conversion from double to float
+                float fl = 65.25468;
+                           ^
+2 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac converterDemo.java
+converterDemo.java:20: error: incompatible types: possible lossy conversion from double to long
+                long lo = 452.25;
+                          ^
+converterDemo.java:22: error: incompatible types: possible lossy conversion from double to float
+                float fl = 65.25468;
+                           ^
+2 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac converterDemo.java
+converterDemo.java:20: error: incompatible types: possible lossy conversion from double to long
+                long lo = 452.25;
+                          ^
+1 error
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac converterDemo.java
+converterDemo.java:20: error: ';' expected
+                long lo = 452.25l;
+                                ^
+1 error
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac converterDemo.java
+converterDemo.java:20: error: ';' expected
+                long lo = 452.25567l;
+                                   ^
+1 error
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac converterDemo.java
+converterDemo.java:20: error: incompatible types: possible lossy conversion from double to long
+                long lo = 452.25567;
+                          ^
+1 error
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac converterDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java converterDemo
+Error: Could not find or load main class converterDemo
+Caused by: java.lang.NoClassDefFoundError: ConverterDemo (wrong name: converterDemo)
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java ConverterDemo
+Value of boolean bo is : true
+Value of short sh is : 45
+Value of char ch is : a
+Value of long lo is : 452
+Value of int in is : 456
+Value of float fl is : 65.25
+Value of double db is : 78.25
+Value of String st is : Hi
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac converterDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java ConverterDemo
+Value of boolean bo is : true
+Value of short sh is : 45
+Value of char ch is : a
+Value of long lo is : 452
+Value of int in is : 456
+Value of float fl is : 65.25
+Value of double db is : 78.25
+Value of String st is : Hi
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac converterDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java ConverterDemo
+Value of boolean bo is : true
+Value of byte by is : 120
+Value of short sh is : 45
+Value of char ch is : a
+Value of long lo is : 452
+Value of int in is : 456
+Value of float fl is : 65.25
+Value of double db is : 78.25
+Value of String st is : Hi
+
+C:\Users\2021ict128\Desktop\IT1214\S8>
+C:\Users\2021ict128\Desktop\IT1214\S8>javac converterDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java ConverterDemo
+Value of boolean bo is : true
+Value of byte by is : 120
+Value of short sh is : 45
+Value of char ch is : a
+Value of long lo is : 452
+Value of int in is : 456
+Value of float fl is : 0.0
+Value of double db is : 78.25
+Value of String st is : Hi
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac converterDemo.java
+converterDemo.java:23: error: ';' expected
+                float fl = (5/7)f;
+                                ^
+1 error
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac converterDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java ConverterDemo
+Value of boolean bo is : true
+Value of byte by is : 120
+Value of short sh is : 45
+Value of char ch is : a
+Value of long lo is : 452
+Value of int in is : 456
+Value of float fl is : 0.0
+Value of double db is : 78.25
+Value of String st is : Hi
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac converterDemo.java
+converterDemo.java:23: error: '.class' expected
+                float fl = float(5/7);
+                                ^
+1 error
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac converterDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java ConverterDemo
+Value of boolean bo is : true
+Value of byte by is : 120
+Value of short sh is : 45
+Value of char ch is : a
+Value of long lo is : 452
+Value of int in is : 456
+Value of float fl is : 65.25
+Value of double db is : 78.25
+Value of String st is : Hi
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac converterDemo.java
+converterDemo.java:28: error: incompatible types: possible lossy conversion from long to short
+                sh = lo; //shortning the value
+                     ^
+1 error
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac converterDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java ConverterDemo
+Value of boolean bo is : true
+Value of byte by is : 120
+Value of short sh is : 45
+Value of char ch is : a
+Value of long lo is : 120
+Value of int in is : 456
+Value of float fl is : 65.25
+Value of double db is : 78.25
+Value of String st is : Hi
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac converterDemo.java
+converterDemo.java:28: error: incompatible types: possible lossy conversion from long to short
+                sh = lo; //shortning the value
+                     ^
+1 error
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac converterDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java ConverterDemo
+Value of boolean bo is : true
+Value of byte by is : 120
+Value of short sh is : 120
+Value of char ch is : a
+Value of long lo is : 120
+Value of int in is : 456
+Value of float fl is : 65.25
+Value of double db is : 78.25
+Value of String st is : Hi
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac converterDemo.java
+converterDemo.java:30: error: incompatible types: possible lossy conversion from double to int
+                in =db;
+                    ^
+1 error
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac converterDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java ConverterDemo
+Value of boolean bo is : true
+Value of byte by is : 120
+Value of short sh is : 120
+Value of char ch is : a
+Value of long lo is : 120
+Value of int in is : 78
+Value of float fl is : 456.0
+Value of double db is : 78.25
+Value of String st is : Hi
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac converterDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java ConverterDemo
+Value of boolean bo is : true
+Value of byte by is : 120
+Value of short sh is : 120
+Value of char ch is : a
+Value of long lo is : 120
+Value of int in is : 97
+Value of float fl is : 456.0
+Value of double db is : 78.25
+Value of String st is : Hi
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac converterDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java ConverterDemo
+Value of boolean bo is : true
+Value of byte by is : 120
+Value of short sh is : 120
+Value of char ch is : a
+Value of long lo is : 120
+Value of int in is : 97
+Value of float fl is : 456.0
+Value of double db is : 78.25
+Value of String st is : Hi
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac converterDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java ConverterDemo
+Value of boolean bo is : true
+Value of byte by is : 120
+Value of short sh is : 120
+Value of char ch is : b
+Value of long lo is : 120
+Value of int in is : 98
+Value of float fl is : 456.0
+Value of double db is : 78.25
+Value of String st is : Hi
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac converterDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java ConverterDemo
+Value of boolean bo is : true
+Value of byte by is : 120
+Value of short sh is : 120
+Value of char ch is : d
+Value of long lo is : 120
+Value of int in is : 98
+Value of float fl is : 456.0
+Value of double db is : 78.25
+Value of String st is : Hi
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac converterDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java ConverterDemo
+Value of boolean bo is : true
+Value of byte by is : 120
+Value of short sh is : 120
+Value of char ch is : c
+Value of long lo is : 120
+Value of int in is : 99
+Value of float fl is : 456.0
+Value of double db is : 78.25
+Value of String st is : Hi
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac InputDemo.java
+InputDemo.java:1: error: package java.utils does not exist
+import java.utils.*;
+^
+InputDemo.java:6: error: cannot find symbol
+                Scanner scan = new Scanner(system.in);
+                ^
+  symbol:   class Scanner
+  location: class InputDemo
+InputDemo.java:6: error: cannot find symbol
+                Scanner scan = new Scanner(system.in);
+                                   ^
+  symbol:   class Scanner
+  location: class InputDemo
+InputDemo.java:6: error: cannot find symbol
+                Scanner scan = new Scanner(system.in);
+                                           ^
+  symbol:   variable system
+  location: class InputDemo
+4 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac InputDemo.java
+InputDemo.java:1: error: package java.utils does not exist
+import java.utils.*;
+^
+InputDemo.java:6: error: cannot find symbol
+                Scanner scan = new Scanner(system.in());
+                ^
+  symbol:   class Scanner
+  location: class InputDemo
+InputDemo.java:6: error: cannot find symbol
+                Scanner scan = new Scanner(system.in());
+                                   ^
+  symbol:   class Scanner
+  location: class InputDemo
+InputDemo.java:6: error: cannot find symbol
+                Scanner scan = new Scanner(system.in());
+                                           ^
+  symbol:   variable system
+  location: class InputDemo
+4 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac InputDemo.java
+InputDemo.java:1: error: package java.utils does not exist
+import java.utils.*;
+^
+InputDemo.java:6: error: cannot find symbol
+                Scanner scan = new Scanner(System.in());
+                ^
+  symbol:   class Scanner
+  location: class InputDemo
+InputDemo.java:6: error: cannot find symbol
+                Scanner scan = new Scanner(System.in());
+                                   ^
+  symbol:   class Scanner
+  location: class InputDemo
+InputDemo.java:6: error: cannot find symbol
+                Scanner scan = new Scanner(System.in());
+                                                 ^
+  symbol:   method in()
+  location: class System
+4 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac InputDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java InputDemo
+Hi! Enter your name:
+raneema
+Helloraneema , How are You?
+
+C:\Users\2021ict128\Desktop\IT1214\S8>
+C:\Users\2021ict128\Desktop\IT1214\S8>javac InputDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java InputDemo
+Hi!  Enter your name:
+Raneema Ilham
+Hello Raneema Ilham, How are You?
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac InputDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java InputDemo
+Hi!  Enter your name:
+Risnee Ilham
+Hello Risnee Ilham, How are You?
+Enter your age:
+26
+Your age is 26
+Enter your marks:
+100
+Your marks is 100
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac InputDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java InputDemo
+Hi!  Enter your name:
+Risnee Ilham
+Hello Risnee Ilham, How are You?
+fine
+You are fine
+Enter your age:
+26
+Your age is 26
+Enter your marks:
+100
+Your marks is 100
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac InputDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java InputDemo
+Hi!  Enter your name:
+Ranee
+Hello Ranee, How are You?
+Fine
+You are Fine
+Enter your age:
+26
+Ohh god! Are you 26 years old?
+Enter your marks:
+100
+You got 100 marks
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac InputDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java InputDemo
+Hi!
+ Enter your name:
+100lmd
+Hello 100lmd, How are You?
+
+You are
+Enter your age:
+
+
+dgv
+Exception in thread "main" java.util.InputMismatchException
+        at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+        at java.base/java.util.Scanner.next(Scanner.java:1594)
+        at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+        at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+        at InputDemo.main(InputDemo.java:20)
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac InputDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java InputDemo
+Hi!
+ Enter your name:  Risnee
+Hello Risnee, How are You?
+not nfine
+You are not nfine
+Enter your age:
+hj
+Exception in thread "main" java.util.InputMismatchException
+        at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+        at java.base/java.util.Scanner.next(Scanner.java:1594)
+        at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+        at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+        at InputDemo.main(InputDemo.java:20)
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac InputDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java InputDemo
+Hi!
+ Enter your name:  Raneem
+Hello Raneem, How are You?
+Fine
+You are Fine
+Enter your age:  26
+Ohh god! Are you 26 years old?
+Enter your marks:  100
+You got 100 marks
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac InputDemo.java
+InputDemo.java:29: error: cannot find symbol
+                grade = scan.nextChar();
+                            ^
+  symbol:   method nextChar()
+  location: variable scan of type Scanner
+1 error
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac InputDemo.java
+InputDemo.java:29: error: incompatible types: String cannot be converted to char
+                grade = scan.nextLine();
+                                     ^
+1 error
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA.java
+GPA.java:7: error: missing return statement
+        }
+        ^
+1 error
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA.java
+GPA.java:6: error: cannot find symbol
+        return GPA;
+               ^
+  symbol:   variable GPA
+  location: class GPA
+1 error
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA.java
+GPA.java:5: error: variable grade is already defined in method gratePoint(String)
+                float grade;
+                      ^
+1 error
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java Demo
+Enter your name:  Raneema
+Hi! Raneema
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA.java
+GPA.java:7: error: bad operand types for binary operator '=='
+                if(grade == 'A'){
+                         ^
+  first type:  String
+  second type: char
+1 error
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA.java
+GPA.java:6: error: variable grade is already defined in method gradePoint(String)
+                int grade = (int)this.grade;
+                    ^
+GPA.java:6: error: cannot find symbol
+                int grade = (int)this.grade;
+                                     ^
+  symbol: variable grade
+2 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA.java
+GPA.java:6: error: ')' expected
+                Integer. valueOf(String grade);
+                                       ^
+GPA.java:6: error: not a statement
+                Integer. valueOf(String grade);
+                                        ^
+GPA.java:6: error: ';' expected
+                Integer. valueOf(String grade);
+                                             ^
+3 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA.java
+GPA.java:6: error: ')' expected
+                grade=Integer. valueOf(String grade);
+                                             ^
+GPA.java:6: error: not a statement
+                grade=Integer. valueOf(String grade);
+                                              ^
+GPA.java:6: error: ';' expected
+                grade=Integer. valueOf(String grade);
+                                                   ^
+3 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA.java
+GPA.java:10: error: incompatible types: possible lossy conversion from double to float
+                        gpv=3.7;
+                            ^
+GPA.java:12: error: incompatible types: possible lossy conversion from double to float
+                        gpv=3.3;
+                            ^
+GPA.java:16: error: incompatible types: possible lossy conversion from double to float
+                        gpv=2.7;
+                            ^
+GPA.java:18: error: incompatible types: possible lossy conversion from double to float
+                        gpv=2.3;
+                            ^
+GPA.java:22: error: incompatible types: possible lossy conversion from double to float
+                        gpv=1.7;
+                            ^
+GPA.java:24: error: incompatible types: possible lossy conversion from double to float
+                        gpv=1.3;
+                            ^
+6 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA.java
+GPA.java:70: error: ';' expected
+                        gpv=1
+                             ^
+1 error
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA.java
+GPA.java:40: error: incompatible types: possible lossy conversion from double to float
+                        gpv=3.7;
+                            ^
+GPA.java:43: error: incompatible types: possible lossy conversion from double to float
+                        gpv=3.3;
+                            ^
+GPA.java:49: error: incompatible types: possible lossy conversion from double to float
+                        gpv=2.7;
+                            ^
+GPA.java:52: error: incompatible types: possible lossy conversion from double to float
+                        gpv=2.3;
+                            ^
+GPA.java:58: error: incompatible types: possible lossy conversion from double to float
+                        gpv=1.7;
+                            ^
+GPA.java:61: error: incompatible types: possible lossy conversion from double to float
+                        gpv=1.3;
+                            ^
+6 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA.java
+GPA.java:58: error: incompatible types: possible lossy conversion from double to float
+                        gpv=1.7;
+                            ^
+1 error
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java Demo
+Enter your name:  ranee
+Hi! ranee
+Enter the grade for IT1113: A+
+Grade point Value of the grade A+ is 4.0Overall Grade point: 12.0Enter the grade for IT1122: A
+Grade point Value of the grade A is 4.0Overall Grade point: 20.0Final GPA is for Semester 1 is: 1.3333334
+C:\Users\2021ict128\Desktop\IT1214\S8>
