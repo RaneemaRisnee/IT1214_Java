@@ -1,0 +1,468 @@
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java Demo
+Enter your name:  Risnee
+Hi! Risnee
+Enter the grade for IT1113 : A
+Grade point Value of the grade A is 4.0
+GradePoint * Credit is: 12.0
+Enter the grade for IT1122 : A-
+Grade point Value of the grade A- is 3.7
+GradePoint * Credit is: 7.4
+Enter the grade for IT1134 : A=
+Grade point Value of the grade A= is 1.0
+GradePoint * Credit is: 4.0
+Enter the grade for IT1144 : A
+Grade point Value of the grade A is 4.0
+GradePoint * Credit is: 16.0
+Enter the grade for IT1152 : A
+Grade point Value of the grade A is 4.0
+GradePoint * Credit is: 8.0
+Final GPA is for Semester 1 is: 3.16
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA_Array.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java Demo
+Enter your name:  Risnee
+Hi! Risnee
+Enter the grade for IT1113 : A
+Grade point Value of the grade A is 4.0
+GradePoint * Credit is: 12.0
+Enter the grade for IT1122 : A
+Grade point Value of the grade A is 4.0
+GradePoint * Credit is: 8.0
+Enter the grade for IT1134 : A+
+Grade point Value of the grade A+ is 4.0
+GradePoint * Credit is: 16.0
+Enter the grade for IT1144 : B-
+Grade point Value of the grade B- is 2.7
+GradePoint * Credit is: 10.8
+Enter the grade for IT1152 : A+
+Grade point Value of the grade A+ is 4.0
+GradePoint * Credit is: 8.0
+Final GPA is for Semester 1 is: 3.6533332
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA_Table.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java Demo
+Enter your name:  risnee
+Hi! risnee
+Enter the grade for IT1113 : A+
+Enter the grade for IT1122 : C-
+Enter the grade for IT1134 : B+
+Enter the grade for IT1144 : E
+Enter the grade for IT1152 : D-
+Final GPA is for Semester 1 is: 2.04
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA_Table.java
+GPA_Table.java:62: error: illegal character: '\'
+                System.out.println("Subject "+\t+"fdh"+\t+"hhfd");
+                                              ^
+GPA_Table.java:62: error: illegal character: '\'
+                System.out.println("Subject "+\t+"fdh"+\t+"hhfd");
+                                                       ^
+GPA_Table.java:62: error: not a statement
+                System.out.println("Subject "+\t+"fdh"+\t+"hhfd");
+                                                      ^
+GPA_Table.java:62: error: not a statement
+                System.out.println("Subject "+\t+"fdh"+\t+"hhfd");
+                                                         ^
+GPA_Table.java:62: error: ';' expected
+                System.out.println("Subject "+\t+"fdh"+\t+"hhfd");
+                                                                ^
+5 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA_Table.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java Demo
+Enter your name:  fojfksjb
+Enter the grade for IT1113 : A
+Enter the grade for IT1122 : A
+Enter the grade for IT1134 : A
+Enter the grade for IT1144 : A
+Enter the grade for IT1152 : A
+Final GPA for Semester 1 is: 4.0Name: fojfksjb
+---------------------------------------------
+Subject          Grade   Grade Point
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA_Table.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java Demo
+Enter your name:  jhiugfd
+Enter the grade for IT1113 : fd
+Enter the grade for IT1122 : fg
+Enter the grade for IT1134 : hgf
+Enter the grade for IT1144 : h
+Enter the grade for IT1152 : gh
+Final GPA for Semester 1 is: 1.0Name: jhiugfd
+-----------------------------------
+Subject |        Grade |         Grade Point |
+-----------------------------------
+-----------------------------------
+-----------------------------------
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA_Table.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java Demo
+Enter your name:  figuiduhg
+Enter the grade for IT1113 : shs
+Enter the grade for IT1122 : sh
+Enter the grade for IT1134 : h
+Enter the grade for IT1144 : hdjhh
+Enter the grade for IT1152 : hfj
+Final GPA for Semester 1 is: 1.0Name: figuiduhg
+-----------------------------------
+Subject | Grade | Grade Point |
+-----------------------------------
+-----------------------------------
+-----------------------------------
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA_Table.java
+GPA_Table.java:63: error: illegal character: '\'
+                System.out.println(subject[i] |\t grade[i] |\t g.gradePoint(grade) |");
+                                               ^
+GPA_Table.java:63: error: ']' expected
+                System.out.println(subject[i] |\t grade[i] |\t g.gradePoint(grade) |");
+                                                        ^
+GPA_Table.java:63: error: ';' expected
+                System.out.println(subject[i] |\t grade[i] |\t g.gradePoint(grade) |");
+                                                         ^
+GPA_Table.java:63: error: illegal character: '\'
+                System.out.println(subject[i] |\t grade[i] |\t g.gradePoint(grade) |");
+                                                            ^
+GPA_Table.java:63: error: ';' expected
+                System.out.println(subject[i] |\t grade[i] |\t g.gradePoint(grade) |");
+                                                                ^
+GPA_Table.java:63: error: unclosed string literal
+                System.out.println(subject[i] |\t grade[i] |\t g.gradePoint(grade) |");
+                                                                                    ^
+GPA_Table.java:63: error: not a statement
+                System.out.println(subject[i] |\t grade[i] |\t g.gradePoint(grade) |");
+                                                                                   ^
+7 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA_Table.java
+GPA_Table.java:63: error: cannot find symbol
+                System.out.println(subject[i] +"|\t"+ grade[i] +"|\t"+ g.gradePoint(grade) +"|\t");
+                                   ^
+  symbol:   variable subject
+  location: class Demo
+GPA_Table.java:63: error: cannot find symbol
+                System.out.println(subject[i] +"|\t"+ grade[i] +"|\t"+ g.gradePoint(grade) +"|\t");
+                                           ^
+  symbol:   variable i
+  location: class Demo
+GPA_Table.java:63: error: cannot find symbol
+                System.out.println(subject[i] +"|\t"+ grade[i] +"|\t"+ g.gradePoint(grade) +"|\t");
+                                                      ^
+  symbol:   variable grade
+  location: class Demo
+GPA_Table.java:63: error: cannot find symbol
+                System.out.println(subject[i] +"|\t"+ grade[i] +"|\t"+ g.gradePoint(grade) +"|\t");
+                                                            ^
+  symbol:   variable i
+  location: class Demo
+GPA_Table.java:63: error: cannot find symbol
+                System.out.println(subject[i] +"|\t"+ grade[i] +"|\t"+ g.gradePoint(grade) +"|\t");
+                                                                                    ^
+  symbol:   variable grade
+  location: class Demo
+GPA_Table.java:66: error: cannot find symbol
+                System.out.println("Overall Grade point Value: "+g.gradePoint(grade)*credit);
+                                                                              ^
+  symbol:   variable grade
+  location: class Demo
+6 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA_Table.java
+GPA_Table.java:63: error: cannot find symbol
+                System.out.println(subject[i] +"|\t"+ grade[i] +"|\t"+ g.gradePoint(grade) +"|\t");
+                                   ^
+  symbol:   variable subject
+  location: class Demo
+GPA_Table.java:63: error: cannot find symbol
+                System.out.println(subject[i] +"|\t"+ grade[i] +"|\t"+ g.gradePoint(grade) +"|\t");
+                                           ^
+  symbol:   variable i
+  location: class Demo
+GPA_Table.java:63: error: cannot find symbol
+                System.out.println(subject[i] +"|\t"+ grade[i] +"|\t"+ g.gradePoint(grade) +"|\t");
+                                                      ^
+  symbol:   variable grade
+  location: class Demo
+GPA_Table.java:63: error: cannot find symbol
+                System.out.println(subject[i] +"|\t"+ grade[i] +"|\t"+ g.gradePoint(grade) +"|\t");
+                                                            ^
+  symbol:   variable i
+  location: class Demo
+GPA_Table.java:63: error: cannot find symbol
+                System.out.println(subject[i] +"|\t"+ grade[i] +"|\t"+ g.gradePoint(grade) +"|\t");
+                                                                                    ^
+  symbol:   variable grade
+  location: class Demo
+GPA_Table.java:66: error: cannot find symbol
+                System.out.println("Overall Grade point Value: "+g.gradePoint(grade)*credit);
+                                                                              ^
+  symbol:   variable grade
+  location: class Demo
+6 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA_Table.java
+GPA_Table.java:63: error: cannot find symbol
+                System.out.println(subject[i] +"|\t"+ grade[i] +"|\t"+ g.gradePoint(grade) +"|\t");
+                                   ^
+  symbol:   variable subject
+  location: class Demo
+GPA_Table.java:63: error: cannot find symbol
+                System.out.println(subject[i] +"|\t"+ grade[i] +"|\t"+ g.gradePoint(grade) +"|\t");
+                                           ^
+  symbol:   variable i
+  location: class Demo
+GPA_Table.java:63: error: cannot find symbol
+                System.out.println(subject[i] +"|\t"+ grade[i] +"|\t"+ g.gradePoint(grade) +"|\t");
+                                                      ^
+  symbol:   variable grade
+  location: class Demo
+GPA_Table.java:63: error: cannot find symbol
+                System.out.println(subject[i] +"|\t"+ grade[i] +"|\t"+ g.gradePoint(grade) +"|\t");
+                                                            ^
+  symbol:   variable i
+  location: class Demo
+GPA_Table.java:63: error: cannot find symbol
+                System.out.println(subject[i] +"|\t"+ grade[i] +"|\t"+ g.gradePoint(grade) +"|\t");
+                                                                                    ^
+  symbol:   variable grade
+  location: class Demo
+5 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA_Table.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java Demo
+Enter your name:  hgujfc
+Enter the grade for IT1113 : fdf
+Enter the grade for IT1122 : asga
+Enter the grade for IT1134 : gdg
+Enter the grade for IT1144 : gdsg
+Enter the grade for IT1152 : gdsg
+Name: hgujfc
+-----------------------------------
+Subject |        Grade |         Grade Point |
+-----------------------------------
+-----------------------------------
+Grade Point Average: 1.0
+-----------------------------------
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA_Table.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java Demo
+Enter your name:  mknldh
+Enter the grade for IT1113 : gds
+Enter the grade for IT1122 : gsa
+Enter the grade for IT1134 : gsr
+Enter the grade for IT1144 : grg
+Enter the grade for IT1152 : htrdg
+Name: mknldh
+----------------------------------------------
+Subject |        Grade |         Grade Point |
+-----------------------------------
+-----------------------------------
+Grade Point Average: 1.0
+-----------------------------------
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA_Table.java
+
+C:\Users\2021ict128\Desktop\IT1214\S8>java Demo
+Enter your name:  jg
+Enter the grade for IT1113 : gddg
+Enter the grade for IT1122 : hg
+Enter the grade for IT1134 : fhfhg
+Enter the grade for IT1144 : h
+Enter the grade for IT1152 : hgfds
+Name: jg
+----------------------------------------------
+Subject |        Grade |         Grade Point |
+----------------------------------------------
+----------------------------------------------
+Grade Point Average: 1.0
+----------------------------------------------
+
+C:\Users\2021ict128\Desktop\IT1214\S8>g
+'g' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA_Table.java
+GPA_Table.java:63: error: cannot find symbol
+                System.out.println(subject[i] +"|\t"+ grade[i] +"|\t"+ gps[i] +"|\t");
+                                   ^
+  symbol:   variable subject
+  location: class Demo
+GPA_Table.java:63: error: cannot find symbol
+                System.out.println(subject[i] +"|\t"+ grade[i] +"|\t"+ gps[i] +"|\t");
+                                           ^
+  symbol:   variable i
+  location: class Demo
+GPA_Table.java:63: error: cannot find symbol
+                System.out.println(subject[i] +"|\t"+ grade[i] +"|\t"+ gps[i] +"|\t");
+                                                      ^
+  symbol:   variable grade
+  location: class Demo
+GPA_Table.java:63: error: cannot find symbol
+                System.out.println(subject[i] +"|\t"+ grade[i] +"|\t"+ gps[i] +"|\t");
+                                                            ^
+  symbol:   variable i
+  location: class Demo
+GPA_Table.java:63: error: cannot find symbol
+                System.out.println(subject[i] +"|\t"+ grade[i] +"|\t"+ gps[i] +"|\t");
+                                                                           ^
+  symbol:   variable i
+  location: class Demo
+GPA_Table.java:66: error: cannot find symbol
+                System.out.println("Overall Grade point Value: "+gps[i]*credit);
+                                                                     ^
+  symbol:   variable i
+  location: class Demo
+GPA_Table.java:66: error: bad operand types for binary operator '*'
+                System.out.println("Overall Grade point Value: "+gps[i]*credit);
+                                                                       ^
+  first type:  float
+  second type: int[]
+7 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA_Table.java
+GPA_Table.java:43: error: ']' expected
+                        String grades[index] = scan.nextLine();
+                                      ^
+GPA_Table.java:43: error: ';' expected
+                        String grades[index] = scan.nextLine();
+                                           ^
+2 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA_Table.java
+GPA_Table.java:57: error: method getPoint in class Demo cannot be applied to given types;
+                        ogp+=getPoint(subjects[i],credits[i]);
+                             ^
+  required: int
+  found: String,int
+  reason: actual and formal argument lists differ in length
+GPA_Table.java:59: error: cannot find symbol
+                grades[index] = scan.nextLine();
+                       ^
+  symbol:   variable index
+  location: class Demo
+GPA_Table.java:66: error: cannot find symbol
+                System.out.println(subjects[index] +"|\t"+credits[index]+"|\t"+grade[index]+"|\t");
+                                            ^
+  symbol:   variable index
+  location: class Demo
+GPA_Table.java:66: error: cannot find symbol
+                System.out.println(subjects[index] +"|\t"+credits[index]+"|\t"+grade[index]+"|\t");
+                                                                  ^
+  symbol:   variable index
+  location: class Demo
+GPA_Table.java:66: error: cannot find symbol
+                System.out.println(subjects[index] +"|\t"+credits[index]+"|\t"+grade[index]+"|\t");
+                                                                               ^
+  symbol:   variable grade
+  location: class Demo
+GPA_Table.java:66: error: cannot find symbol
+                System.out.println(subjects[index] +"|\t"+credits[index]+"|\t"+grade[index]+"|\t");
+                                                                                     ^
+  symbol:   variable index
+  location: class Demo
+GPA_Table.java:69: error: cannot find symbol
+                System.out.println("Overall Grade point Value: "+gps[index]*credits[index]);
+                                                                     ^
+  symbol:   variable index
+  location: class Demo
+GPA_Table.java:69: error: cannot find symbol
+                System.out.println("Overall Grade point Value: "+gps[index]*credits[index]);
+                                                                                    ^
+  symbol:   variable index
+  location: class Demo
+8 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA_Table.java
+GPA_Table.java:58: error: method getPoint in class Demo cannot be applied to given types;
+                        ogp+=getPoint(subjects[i],credits[i]);
+                             ^
+  required: int
+  found: String,int
+  reason: actual and formal argument lists differ in length
+GPA_Table.java:60: error: cannot find symbol
+                grades[index] = scan.nextLine();
+                       ^
+  symbol:   variable index
+  location: class Demo
+GPA_Table.java:67: error: cannot find symbol
+                System.out.println(subjects[index] +"|\t"+credits[index]+"|\t"+grade[index]+"|\t");
+                                            ^
+  symbol:   variable index
+  location: class Demo
+GPA_Table.java:67: error: cannot find symbol
+                System.out.println(subjects[index] +"|\t"+credits[index]+"|\t"+grade[index]+"|\t");
+                                                                  ^
+  symbol:   variable index
+  location: class Demo
+GPA_Table.java:67: error: cannot find symbol
+                System.out.println(subjects[index] +"|\t"+credits[index]+"|\t"+grade[index]+"|\t");
+                                                                               ^
+  symbol:   variable grade
+  location: class Demo
+GPA_Table.java:67: error: cannot find symbol
+                System.out.println(subjects[index] +"|\t"+credits[index]+"|\t"+grade[index]+"|\t");
+                                                                                     ^
+  symbol:   variable index
+  location: class Demo
+GPA_Table.java:70: error: cannot find symbol
+                System.out.println("Overall Grade point Value: "+gps[index]);
+                                                                     ^
+  symbol:   variable index
+  location: class Demo
+7 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S8>javac GPA_Table.java
+GPA_Table.java:58: error: method getPoint in class Demo cannot be applied to given types;
+                        ogp+=getPoint(subjects[i],credits[i]);
+                             ^
+  required: int
+  found: String,int
+  reason: actual and formal argument lists differ in length
+GPA_Table.java:60: error: cannot find symbol
+                grades[index] = scan.nextLine();
+                       ^
+  symbol:   variable index
+  location: class Demo
+GPA_Table.java:67: error: cannot find symbol
+                System.out.println(subjects[index] +"|\t"+credits[index]+"|\t"+grade[index]+"|\t");
+                                            ^
+  symbol:   variable index
+  location: class Demo
+GPA_Table.java:67: error: cannot find symbol
+                System.out.println(subjects[index] +"|\t"+credits[index]+"|\t"+grade[index]+"|\t");
+                                                                  ^
+  symbol:   variable index
+  location: class Demo
+GPA_Table.java:67: error: cannot find symbol
+                System.out.println(subjects[index] +"|\t"+credits[index]+"|\t"+grade[index]+"|\t");
+                                                                               ^
+  symbol:   variable grade
+  location: class Demo
+GPA_Table.java:67: error: cannot find symbol
+                System.out.println(subjects[index] +"|\t"+credits[index]+"|\t"+grade[index]+"|\t");
+                                                                                     ^
+  symbol:   variable index
+  location: class Demo
+GPA_Table.java:70: error: cannot find symbol
+                System.out.println("Overall Grade point Value: "+gps[index]*credits[index]);
+                                                                     ^
+  symbol:   variable index
+  location: class Demo
+GPA_Table.java:70: error: cannot find symbol
+                System.out.println("Overall Grade point Value: "+gps[index]*credits[index]);
+                                                                                    ^
+  symbol:   variable index
+  location: class Demo
+8 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S8>

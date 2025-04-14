@@ -15,7 +15,6 @@ class InputDemo{
 		System.out.println("Hello "+name+", How are You?");
 		answer = scan.nextLine();
 		System.out.println("You are "+answer);
-
 		
 		System.out.print("Enter your age:  ");
 		age = scan.nextInt();
@@ -24,7 +23,6 @@ class InputDemo{
 		System.out.print("Enter your marks:  ");
 		marks = scan.nextByte();
 		System.out.println("You got "+marks+" marks.");
-		
-		
+			
 	}
 }
