@@ -1,0 +1,1037 @@
+
+C:\Users\2021ict128\Desktop\IT1214\S8>cd ..
+
+C:\Users\2021ict128\Desktop\IT1214>cd S9
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+ShopDemo.java:5: error: ']' expected
+        String [3] description = {"Bread","Milk Powder","Tooth Paste"};
+                ^
+ShopDemo.java:5: error: <identifier> expected
+        String [3] description = {"Bread","Milk Powder","Tooth Paste"};
+                              ^
+ShopDemo.java:6: error: ']' expected
+        int [3] unitPrice = {160,1060,260};
+             ^
+ShopDemo.java:6: error: <identifier> expected
+        int [3] unitPrice = {160,1060,260};
+                         ^
+4 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+ShopDemo.java:5: error: ']' expected
+        String description[3] = {"Bread","Milk Powder","Tooth Paste"};
+                           ^
+ShopDemo.java:5: error: not a statement
+        String description[3] = {"Bread","Milk Powder","Tooth Paste"};
+                                 ^
+ShopDemo.java:5: error: ';' expected
+        String description[3] = {"Bread","Milk Powder","Tooth Paste"};
+                                        ^
+ShopDemo.java:6: error: ']' expected
+        int unitPrice[3] = {160,1060,260};
+                      ^
+ShopDemo.java:6: error: not a statement
+        int unitPrice[3] = {160,1060,260};
+                            ^
+ShopDemo.java:6: error: ';' expected
+        int unitPrice[3] = {160,1060,260};
+                               ^
+6 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+ShopDemo.java:5: error: ']' expected
+        String description[3] = {"Bread","Milk Powder","Tooth Paste"};
+                           ^
+ShopDemo.java:5: error: not a statement
+        String description[3] = {"Bread","Milk Powder","Tooth Paste"};
+                                 ^
+ShopDemo.java:5: error: ';' expected
+        String description[3] = {"Bread","Milk Powder","Tooth Paste"};
+                                        ^
+ShopDemo.java:6: error: ']' expected
+        int unitPrice[3] = {160,1060,260};
+                      ^
+ShopDemo.java:6: error: not a statement
+        int unitPrice[3] = {160,1060,260};
+                            ^
+ShopDemo.java:6: error: ';' expected
+        int unitPrice[3] = {160,1060,260};
+                               ^
+6 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+ShopDemo.java:5: error: ']' expected
+        static String description[3] = {"Bread","Milk Powder","Tooth Paste"};
+                                  ^
+ShopDemo.java:5: error: not a statement
+        static String description[3] = {"Bread","Milk Powder","Tooth Paste"};
+                                        ^
+ShopDemo.java:5: error: ';' expected
+        static String description[3] = {"Bread","Milk Powder","Tooth Paste"};
+                                               ^
+ShopDemo.java:6: error: ']' expected
+        static int unitPrice[3] = {160,1060,260};
+                             ^
+ShopDemo.java:6: error: not a statement
+        static int unitPrice[3] = {160,1060,260};
+                                   ^
+ShopDemo.java:6: error: ';' expected
+        static int unitPrice[3] = {160,1060,260};
+                                      ^
+6 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+ShopDemo.java:12: error: cannot find symbol
+                        for(int i=0;i<description.lenght;i++){
+                                                 ^
+  symbol:   variable lenght
+  location: variable description of type String[]
+1 error
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S9>java ShopDemo
+Error: Main method not found in class ShopDemo, please define the main method as:
+   public static void main(String[] args)
+or a JavaFX application class must extend javafx.application.Application
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S9>java ShopDemo
+Welcome to the Demo Shop
+Please select your Item by entering the number
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+ShopDemo.java:23: error: cannot find symbol
+                        userOption=scan.nextChar();
+                                       ^
+  symbol:   method nextChar()
+  location: variable scan of type Scanner
+ShopDemo.java:26: error: incompatible types: char cannot be converted to boolean
+                }while(userOption='y');
+                                 ^
+2 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+ShopDemo.java:23: error: cannot find symbol
+                        userOption=scan.nextChar();
+                                       ^
+  symbol:   method nextChar()
+  location: variable scan of type Scanner
+ShopDemo.java:26: error: incompatible types: char cannot be converted to boolean
+                }while(userOption='y');
+                                 ^
+2 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+ShopDemo.java:24: error: incompatible types: String cannot be converted to char
+                        userOption=(char)scan.nextLine();
+                                                      ^
+1 error
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S9>java ShopDemo
+Welcome to the Demo Shop
+Please select your Item by entering the number
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+Enter y to continue, press any character to exit
+n
+
+C:\Users\2021ict128\Desktop\IT1214\S9>java ShopDemo
+Welcome to the Demo Shop
+Please select your Item by entering the number
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+Enter y to continue, press any character to exit
+0
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S9>java ShopDemo
+Welcome to the Demo Shop
+Please select your Item by entering the number
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+1
+Enter y to continue, press any character to exit
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+        at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:47)
+        at java.base/java.lang.String.charAt(String.java:693)
+        at ShopDemo.getItems(ShopDemo.java:26)
+        at ShopDemo.main(ShopDemo.java:35)
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S9>java ShopDemo
+Welcome to the Demo Shop
+Please select your Item by entering the number
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+2
+Enter y to continue, press any character to exit
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+        at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:47)
+        at java.base/java.lang.String.charAt(String.java:693)
+        at ShopDemo.getItems(ShopDemo.java:26)
+        at ShopDemo.main(ShopDemo.java:35)
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S9>java ShopDemo
+Welcome to the Demo Shop
+Please select your Item by entering the number
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+4
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 3
+        at ShopDemo.getItems(ShopDemo.java:24)
+        at ShopDemo.main(ShopDemo.java:36)
+
+C:\Users\2021ict128\Desktop\IT1214\S9>java ShopDemo
+Welcome to the Demo Shop
+Please select your Item by entering the number
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+0
+You have chosen Bread
+Enter y to continue, press any character to exit
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+        at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:47)
+        at java.base/java.lang.String.charAt(String.java:693)
+        at ShopDemo.getItems(ShopDemo.java:27)
+        at ShopDemo.main(ShopDemo.java:36)
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S9>java ShopDemo
+Welcome to the Demo Shop
+Please select your Item by entering the number
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+2
+You have chosen Tooth Paste
+Enter y to continue, press any character to exit
+1
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S9>java ShopDemo
+Welcome to the Demo Shop
+Please select your Item by entering the number
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+1
+You have chosen Milk Powder
+Enter the Quantity for Milk Powder
+Enter the Quantity for Milk Powder
+Enter the Quantity for Milk Powder
+50
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 50 out of bounds for length 3
+        at ShopDemo.getItems(ShopDemo.java:31)
+        at ShopDemo.main(ShopDemo.java:43)
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+ShopDemo.java:28: error: cannot find symbol
+                        System.out.println(description[itemIndex]+" "+description[i]+" - "+description[itemQty]);
+                                                                                  ^
+  symbol:   variable i
+  location: class ShopDemo
+1 error
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S9>java ShopDemo
+Welcome to the Demo Shop
+Please select your Item by entering the number
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+1
+You have chosen Milk Powder
+Enter the Quantity for Milk Powder
+2
+Milk Powder Milk Powder - Tooth Paste
+Enter y to continue, press any character to exit
+2
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S9>java ShopDemo
+Welcome to the Demo Shop
+Please select your Item by entering the number
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+0
+You have chosen Bread
+Enter the Quantity for Bread
+3
+Bread - 3
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+1
+You have chosen Milk Powder
+Enter the Quantity for Milk Powder
+5
+Milk Powder - 5
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+2
+You have chosen Tooth Paste
+Enter the Quantity for Tooth Paste
+6
+Tooth Paste - 6
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+h
+Exception in thread "main" java.util.InputMismatchException
+        at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+        at java.base/java.util.Scanner.next(Scanner.java:1594)
+        at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+        at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+        at ShopDemo.getItems(ShopDemo.java:24)
+        at ShopDemo.main(ShopDemo.java:41)
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S9>java ShopDemo
+Welcome to the Demo Shop
+Please select your Item by entering the number
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+1
+You have chosen Milk Powder
+Unit price of Milk Powder is 1060
+Enter the Quantity for Milk Powder
+2
+Milk Powder - 2 * 1060 = 2120
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+1
+You have chosen Milk Powder
+Unit price of Milk Powder is 1060
+Enter the Quantity for Milk Powder
+3
+Milk Powder - 3 * 1060 = 3180
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+0
+You have chosen Bread
+Unit price of Bread is 160
+Enter the Quantity for Bread
+3
+Bread - 3 * 160 = 480
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+3
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+        at ShopDemo.getItems(ShopDemo.java:25)
+        at ShopDemo.main(ShopDemo.java:42)
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S9>java ShopDemo
+Welcome to the Demo Shop
+Please select your Item by entering the number
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+2
+You have chosen Tooth Paste
+Unit price of Tooth Paste is 260
+Enter the Quantity for Tooth Paste
+3
+Tooth Paste 3 * 260 = 780
+Enter y to continue, press any character to exit
+j
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S9>java ShopDemo
+Welcome to the Demo Shop
+Please select your Item by entering the number
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+2
+You have chosen Tooth Paste
+Unit price of Tooth Paste is 260
+Enter the Quantity for Tooth Paste
+5
+Tooth Paste 5 * 260/- = 1300/-
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+0
+You have chosen Bread
+Unit price of Bread is 160
+Enter the Quantity for Bread
+125
+Bread 125 * 160/- = 20000/-
+Enter y to continue, press any character to exit
+m
+
+C:\Users\2021ict128\Desktop\IT1214\S9>
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S9>java ShopDemo
+Welcome to the Demo Shop
+Please select your Item by entering the number
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+0
+You have chosen Bread
+Unit price of Bread is 160
+Enter the Quantity for Bread
+12
+Bread 12 * 160/- = 1920/-
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+1
+You have chosen Milk Powder
+Unit price of Milk Powder is 1060
+Enter the Quantity for Milk Powder
+3
+Milk Powder 3 * 1060/- = 3180/-
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+2
+You have chosen Tooth Paste
+Unit price of Tooth Paste is 260
+Enter the Quantity for Tooth Paste
+5
+Tooth Paste 5 * 260/- = 1300/-
+Enter y to continue, press any character to exit
+j
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac Demo.java
+Demo.java:30: error: ')' expected
+                        System.out.println("Enter the Quantity"]);
+                                                               ^
+1 error
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac Demo.java
+Demo.java:50: error: cannot find symbol
+                                System.out.println(i+" \t "+description[itemIndex]+" \t "+unitPrice[itemIndex]+" \t "+numberOfUnits+" \t "+(unitPrice[itemIndex]*numberOfUnits));
+                                                                        ^
+  symbol:   variable itemIndex
+  location: class ShopDemo
+Demo.java:50: error: cannot find symbol
+                                System.out.println(i+" \t "+description[itemIndex]+" \t "+unitPrice[itemIndex]+" \t "+numberOfUnits+" \t "+(unitPrice[itemIndex]*numberOfUnits));
+                                                                                                    ^
+  symbol:   variable itemIndex
+  location: class ShopDemo
+Demo.java:50: error: cannot find symbol
+                                System.out.println(i+" \t "+description[itemIndex]+" \t "+unitPrice[itemIndex]+" \t "+numberOfUnits+" \t "+(unitPrice[itemIndex]*numberOfUnits));
+                                                                                                                      ^
+  symbol:   variable numberOfUnits
+  location: class ShopDemo
+Demo.java:50: error: cannot find symbol
+                                System.out.println(i+" \t "+description[itemIndex]+" \t "+unitPrice[itemIndex]+" \t "+numberOfUnits+" \t "+(unitPrice[itemIndex]*numberOfUnits));
+                                                                                                                                                      ^
+  symbol:   variable itemIndex
+  location: class ShopDemo
+Demo.java:50: error: cannot find symbol
+                                System.out.println(i+" \t "+description[itemIndex]+" \t "+unitPrice[itemIndex]+" \t "+numberOfUnits+" \t "+(unitPrice[itemIndex]*numberOfUnits));
+                                                                                                                                                                 ^
+  symbol:   variable numberOfUnits
+  location: class ShopDemo
+5 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac Demo.java
+Demo.java:50: error: cannot find symbol
+                                System.out.println(i+" \t "+description[itemBasketIndex[i]]+" \t\t "+unitPrice[itemBasketIndex[i]]+" \t "+numberOfUnits+" \t "+(unitPrice[itemBasketIndex[i]]*numberOfUnits));
+                                                                                                                                          ^
+  symbol:   variable numberOfUnits
+  location: class ShopDemo
+Demo.java:50: error: cannot find symbol
+                                System.out.println(i+" \t "+description[itemBasketIndex[i]]+" \t\t "+unitPrice[itemBasketIndex[i]]+" \t "+numberOfUnits+" \t "+(unitPrice[itemBasketIndex[i]]*numberOfUnits));
+                                                                                                                                                                                              ^
+  symbol:   variable numberOfUnits
+  location: class ShopDemo
+2 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac Demo.java
+Demo.java:50: error: cannot find symbol
+                                System.out.println((i+1)+" \t "+description[itemBasketIndex[i]]+" \t\t "+unitPrice[itemBasketIndex[i]]+" \t "+numberOfUnits+" \t "+(unitPrice[itemBasketIndex[i]]*numberOfUnits));
+                                                                                                                                              ^
+  symbol:   variable numberOfUnits
+  location: class ShopDemo
+Demo.java:50: error: cannot find symbol
+                                System.out.println((i+1)+" \t "+description[itemBasketIndex[i]]+" \t\t "+unitPrice[itemBasketIndex[i]]+" \t "+numberOfUnits+" \t "+(unitPrice[itemBasketIndex[i]]*numberOfUnits));
+                                                                                                                                                                                                  ^
+  symbol:   variable numberOfUnits
+  location: class ShopDemo
+2 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac Demo.java
+Demo.java:34: error: cannot find symbol
+                        itemBasketQuantity[basketIndex]=numberOfUnits;
+                        ^
+  symbol:   variable itemBasketQuantity
+  location: class ShopDemo
+Demo.java:51: error: cannot find symbol
+                                " \t\t "+unitPrice[itemBasketIndex[i]]+" \t "+itemBasketQuantity[1]+
+                                                                              ^
+  symbol:   variable itemBasketQuantity
+  location: class ShopDemo
+2 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac Demo.java
+Demo.java:34: error: cannot find symbol
+                        itemBasketQuantity[basketIndex]=numberOfUnits;
+                        ^
+  symbol:   variable itemBasketQuantity
+  location: class ShopDemo
+Demo.java:51: error: cannot find symbol
+                                " \t\t "+unitPrice[itemBasketIndex[i]]+" \t "+itemBasketQuantity[i]+
+                                                                              ^
+  symbol:   variable itemBasketQuantity
+  location: class ShopDemo
+2 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac Demo.java
+Demo.java:34: error: cannot find symbol
+                        itemBasketQuantity[basketIndex]=numberOfUnits;
+                        ^
+  symbol:   variable itemBasketQuantity
+  location: class ShopDemo
+Demo.java:51: error: cannot find symbol
+                                " \t\t "+unitPrice[itemBasketIndex[i]]+" \t "+itemBasketQuantity[i]);
+                                                                              ^
+  symbol:   variable itemBasketQuantity
+  location: class ShopDemo
+2 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac Demo.java
+Demo.java:34: error: cannot find symbol
+                        itemBasketQuantity[basketIndex]=numberOfUnits;
+                        ^
+  symbol:   variable itemBasketQuantity
+  location: class ShopDemo
+Demo.java:43: error: cannot find symbol
+                }while(userOption=='y' && basketindex<3);
+                                          ^
+  symbol:   variable basketindex
+  location: class ShopDemo
+Demo.java:51: error: cannot find symbol
+                                " \t\t "+unitPrice[itemBasketIndex[i]]+" \t "+itemBasketQuantity[i]);
+                                                                              ^
+  symbol:   variable itemBasketQuantity
+  location: class ShopDemo
+3 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac Demo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S9>java ShopDemo
+Welcome to the Demo Shop
+Please select your Item by entering the number
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+0
+You have chosen Bread
+Unit price of Bread is 160
+Enter the Quantity
+12
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+1
+You have chosen Milk Powder
+Unit price of Milk Powder is 1060
+Enter the Quantity
+5
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+2
+You have chosen Tooth Paste
+Unit price of Tooth Paste is 260
+Enter the Quantity
+6
+Enter y to continue, press any character to exit
+i
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac Demo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S9>java ShopDemo
+Welcome to the Demo Shop
+Please select your Item by entering the number
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+1
+You have chosen Milk Powder
+Unit price of Milk Powder is 1060
+Enter the Quantity
+2
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+2
+You have chosen Tooth Paste
+Unit price of Tooth Paste is 260
+Enter the Quantity
+5
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+0
+You have chosen Bread
+Unit price of Bread is 160
+Enter the Quantity
+3
+Enter y to continue, press any character to exit
+n
+No       Item            Unit Price      Quantity        Price
+1        Milk Powder             1060    2
+2        Tooth Paste             260     5
+3        Bread           160     3
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac Demo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S9>java ShopDemo
+Welcome to the Demo Shop
+Please select your Item by entering the number
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+0
+You have chosen Bread
+Unit price of Bread is 160
+Enter the Quantity
+5
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+2
+You have chosen Tooth Paste
+Unit price of Tooth Paste is 260
+Enter the Quantity
+6
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+1
+You have chosen Milk Powder
+Unit price of Milk Powder is 1060
+Enter the Quantity
+65
+Enter y to continue, press any character to exit
+mn
+No       Item            Unit Price      Quantity        Price
+1        Bread           160     5       800
+2        Tooth Paste             260     6       1560
+3        Milk Powder             1060    65      68900
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac Demo.java
+error: file not found: Demo.java
+Usage: javac <options> <source files>
+use --help for a list of possible options
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac DemoByMe.java
+
+C:\Users\2021ict128\Desktop\IT1214\S9>java ShopDemo
+Welcome to the Demo Shop
+Please select your Item by entering the number
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+1
+You have chosen Milk Powder
+Unit price of Milk Powder is 1060
+Enter the Quantity for Milk Powder
+2
+Milk Powder 2 * 1060/- = 2120/-
+Enter y to continue, press any character to exit
+0
+
+C:\Users\2021ict128\Desktop\IT1214\S9>2
+'2' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S9>java ShopDemo
+Welcome to the Demo Shop
+Please select your Item by entering the number
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+0
+You have chosen Bread
+Unit price of Bread is 160
+Enter the Quantity
+15
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+1
+You have chosen Milk Powder
+Unit price of Milk Powder is 1060
+Enter the Quantity
+12
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+2
+You have chosen Tooth Paste
+Unit price of Tooth Paste is 260
+Enter the Quantity
+5
+Enter y to continue, press any character to exit
+n
+No       Item            Unit Price      Quantity        Price
+1        Bread           160     15      2400
+2        Milk Powder             1060    12      12720
+3        Tooth Paste             260     5       1300
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S9>java ShopDemo
+Welcome to the Demo Shop
+Please select your Item by entering the number
+Enter 0 for Bread (500g)
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+0
+You have chosen Bread (500g)
+Unit price of Bread (500g) is 160
+Enter the Quantity
+5
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread (500g)
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+1
+You have chosen Milk Powder
+Unit price of Milk Powder is 1060
+Enter the Quantity
+12
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread (500g)
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+2
+You have chosen Tooth Paste
+Unit price of Tooth Paste is 260
+Enter the Quantity
+6
+Enter y to continue, press any character to exit
+y
+No       Item            Unit Price      Quantity        Price
+1        Bread (500g)            160     5       800
+2        Milk Powder             1060    12      12720
+3        Tooth Paste             260     6       1560
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S9>java ShopDemo
+Welcome to the Demo Shop
+Please select your Item by entering the number
+Enter 0 for Bread (500g)
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+0
+You have chosen Bread (500g)
+Unit price of Bread (500g) is 160
+Enter the Quantity
+10
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread (500g)
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+1
+You have chosen Milk Powder
+Unit price of Milk Powder is 1060
+Enter the Quantity
+8
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread (500g)
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+2
+You have chosen Tooth Paste
+Unit price of Tooth Paste is 260
+Enter the Quantity
+8
+Enter y to continue, press any character to exit
+n
+No       Item            Unit Price      Quantity        Price
+1        Bread (500g)    160     10      1600
+2        Milk Powder     1060    8       8480
+3        Tooth Paste     260     8       2080
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S9>java ShopDemo
+Welcome to the Demo Shop
+Please select your Item by entering the number
+Enter 0 for Bread (500g)
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+0
+You have chosen Bread (500g)
+Unit price of Bread (500g) is 160
+Enter the Quantity
+5
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread (500g)
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+1
+You have chosen Milk Powder
+Unit price of Milk Powder is 1060
+Enter the Quantity
+56
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread (500g)
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+2
+You have chosen Tooth Paste
+Unit price of Tooth Paste is 260
+Enter the Quantity
+9
+Enter y to continue, press any character to exit
+m
+No       Item            Unit Price      Quantity        Price
+1        Bread (500g)    160             5       800
+2        Milk Powder     1060            56      59360
+3        Tooth Paste     260             9       2340
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S9>java ShopDemo
+Welcome to the Demo Shop
+Please select your Item by entering the number
+Enter 0 for Bread (500g)
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+0
+You have chosen Bread (500g)
+Unit price of Bread (500g) is 160
+Enter the Quantity
+12
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread (500g)
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+1
+You have chosen Milk Powder
+Unit price of Milk Powder is 1060
+Enter the Quantity
+25
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread (500g)
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+2
+You have chosen Tooth Paste
+Unit price of Tooth Paste is 260
+Enter the Quantity
+7
+Enter y to continue, press any character to exit
+n
+No       Item            Unit Price      Quantity        Price
+1        Bread (500g)    160             12              1920
+2        Milk Powder     1060            25              26500
+3        Tooth Paste     260             7               1820
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S9>java ShopDemo
+Welcome to the Demo Shop
+Please select your Item by entering the number
+Enter 0 for Bread (500g)
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+0
+You have chosen Bread (500g)
+Unit price of Bread (500g) is 160
+Enter the Quantity
+5
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread (500g)
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+1
+You have chosen Milk Powder
+Unit price of Milk Powder is 1060
+Enter the Quantity
+68
+Enter y to continue, press any character to exit
+y2
+Enter 0 for Bread (500g)
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+2
+You have chosen Tooth Paste
+Unit price of Tooth Paste is 260
+Enter the Quantity
+37
+Enter y to continue, press any character to exit
+n
+No       Item            Unit Price      Quantity        Price
+1        Bread (500g)    160.00                  5               800.00
+2        Milk Powder     1060.00                 68              72080.00
+3        Tooth Paste     260.00                  37              9620.00
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S9>java ShopDemo
+Welcome to the Demo Shop
+Please select your Item by entering the number
+Enter 0 for Bread (500g)
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+2
+You have chosen Tooth Paste
+Unit price of Tooth Paste is 260
+Enter the Quantity
+45
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread (500g)
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+0
+You have chosen Bread (500g)
+Unit price of Bread (500g) is 160
+Enter the Quantity
+68
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread (500g)
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+1
+You have chosen Milk Powder
+Unit price of Milk Powder is 1060
+Enter the Quantity
+2
+Enter y to continue, press any character to exit
+y
+No       Item            Unit Price      Quantity        Price
+1        Tooth Paste     260.00          45      11700.00
+2        Bread (500g)    160.00          68      10880.00
+3        Milk Powder     1060.00         2       2120.00
+
+C:\Users\2021ict128\Desktop\IT1214\S9>javac ShopDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S9>java ShopDemo
+Welcome to the Demo Shop
+Please select your Item by entering the number
+Enter 0 for Bread (500g)
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+1
+You have chosen Milk Powder
+Unit price of Milk Powder is 1060
+Enter the Quantity
+25
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread (500g)
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+1
+You have chosen Milk Powder
+Unit price of Milk Powder is 1060
+Enter the Quantity
+75
+Enter y to continue, press any character to exit
+y
+Enter 0 for Bread (500g)
+Enter 1 for Milk Powder
+Enter 2 for Tooth Paste
+0
+You have chosen Bread (500g)
+Unit price of Bread (500g) is 160
+Enter the Quantity
+3
+Enter y to continue, press any character to exit
+m
+No       Item            Unit Price      Quantity        Price
+1        Milk Powder     1060.00         25              26500.00
+2        Milk Powder     1060.00         75              79500.00
+3        Bread (500g)    160.00          3               480.00
+
+C:\Users\2021ict128\Desktop\IT1214\S9>
