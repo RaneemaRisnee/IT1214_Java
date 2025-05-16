@@ -1,0 +1,55 @@
+Student Grade Calculator with Exception Handling
+
+Write a Java program to manage a student’s exam scores and calculate the average, including input validation with exception handling.
+
+Instructions:
+
+Create a class named Student with these private fields:
+name (String)
+exam1 (int)
+exam2 (int)
+exam3 (int)
+Create a constructor that accepts the student’s name and three exam scores, initializing the fields.
+Implement input validation in the constructor or setters to ensure that exam scores are between 0 and 100. If an invalid score is passed, throw an IllegalArgumentException with the message "Exam scores must be between 0 and 100."
+Create getter methods for each field.
+Create a method named calculateAverage() that returns the average of the three exam scores as a double.
+In the main method:
+Use try-catch to create a Student object for a student named "John" with exam scores 75, 110, and 90. (Notice 110 is invalid.)
+If an exception is caught, print the exception message.
+If creation succeeds, print the student’s name and average exam score (formatted to two decimal places).
+ 
+
+Criteria
+
+Marks
+
+Details
+
+Student Class
+
+40
+
+- Private fields and constructor (10)
+
+- Input validation throwing IllegalArgumentException (15)
+
+- Getter methods for all fields (10)
+
+- calculateAverage() method returning correct average (5)
+
+Main Method
+
+40
+
+- Try-catch block to handle invalid exam score exception (20)
+
+- Correct output on valid input (10)
+
+- Printing exception message if invalid (10)
+
+Code Quality and Style
+
+20
+
+- Naming conventions, access modifiers, formatting, comments
+

@@ -1,0 +1,3 @@
+class ValidateTest{
+	boolean validateMarks()
+}

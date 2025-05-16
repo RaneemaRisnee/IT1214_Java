@@ -1,0 +1,208 @@
+Microsoft Windows [Version 10.0.26100.4061]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\2021ict128\Desktop\IT1214\S10>tree
+Folder PATH listing
+Volume serial number is 96E8-8CF4
+C:.
+No subfolders exist
+
+
+C:\Users\2021ict128\Desktop\IT1214\S10>javac ExceptionDemo.java
+ExceptionDemo.java:1: error: reached end of file while parsing
+sfskj
+^
+1 error
+
+C:\Users\2021ict128\Desktop\IT1214\S10>javac ExceptionDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S10>java ExceptionDemo
+Start of the program
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+        at ExceptionDemo.main(ExceptionDemo.java:7)
+
+C:\Users\2021ict128\Desktop\IT1214\S10>javac ExceptionDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S10>java ExceptionDemo
+Start of the program
+ArithmeticException Error!
+End of the program
+
+C:\Users\2021ict128\Desktop\IT1214\S10>javac ExceptionDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S10>java ExceptionDemo
+Start of the program
+Arithmetic Exception Error Occured!
+The Error is / by zero
+End of the program
+
+C:\Users\2021ict128\Desktop\IT1214\S10>javac ExceptionDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S10>java ExceptionDemo
+Start of the program
+An Error Occured!
+The Error is / by zero
+End of the program
+
+C:\Users\2021ict128\Desktop\IT1214\S10>javac ExceptionDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S10>java ExceptionDemo
+Start of the program
+An Error Occured!
+The Error is Index 0 out of bounds for length 0
+End of the program
+
+C:\Users\2021ict128\Desktop\IT1214\S10>javac ExceptionDemo.java
+
+C:\Users\2021ict128\Desktop\IT1214\S10>java ExceptionDemo
+Start of the program
+An Error Occured!
+The Error is Index 0 out of bounds for length 0
+End of the program
+
+C:\Users\2021ict128\Desktop\IT1214\S10>javac SumOfUserInput.java
+SumOfUserInput.java:7: error: ']' expected
+                int number[10];
+                           ^
+1 error
+
+C:\Users\2021ict128\Desktop\IT1214\S10>javac SumOfUserInput.java
+SumOfUserInput.java:12: error: variable number might not have been initialized
+                        number[i] = scan.nextInt();
+                        ^
+1 error
+
+C:\Users\2021ict128\Desktop\IT1214\S10>javac SumOfUserInput.java
+SumOfUserInput.java:12: error: ']' expected
+                        int number[i] = scan.nextInt();
+                                   ^
+SumOfUserInput.java:12: error: ';' expected
+                        int number[i] = scan.nextInt();
+                                    ^
+2 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S10>javac SumOfUserInput.java
+SumOfUserInput.java:12: error: variable number might not have been initialized
+                        number[i] = scan.nextInt();
+                        ^
+1 error
+
+C:\Users\2021ict128\Desktop\IT1214\S10>javac SumOfUserInput.java
+
+C:\Users\2021ict128\Desktop\IT1214\S10>java Main
+Enter 10 integer values:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+The Sum of 10 numbers: 55
+
+C:\Users\2021ict128\Desktop\IT1214\S10>javac SumOfUserInput.java
+
+C:\Users\2021ict128\Desktop\IT1214\S10>java Main
+Enter 10 integer values:
+gh
+Exception Error!
+The Sum of 10 numbers: 0
+
+C:\Users\2021ict128\Desktop\IT1214\S10>java Main
+Enter 10 integer values:
+1
+2
+3
+4
+5
+6
+5
+2
+2
+1
+The Sum of 10 numbers: 31
+
+C:\Users\2021ict128\Desktop\IT1214\S10>java Main
+Enter 10 integer values:
+56
+6
+6
+26
+8
+26
+
+46
+55
+689
+hg
+Exception Error!
+The Sum of 10 numbers: 918
+
+C:\Users\2021ict128\Desktop\IT1214\S10>javac SumOfUserInput.java
+
+C:\Users\2021ict128\Desktop\IT1214\S10>java Main
+Enter 10 integer values:
+Interger 1 :
+hfh
+Exception Error!
+The Sum of 10 numbers: 0
+
+C:\Users\2021ict128\Desktop\IT1214\S10>javac SumOfUserInput.java
+
+C:\Users\2021ict128\Desktop\IT1214\S10>java Main
+Enter 10 integer values:
+Interger 1 : 1
+Interger 2 : 1
+Interger 3 : 1
+Interger 4 : 1
+Interger 5 : 1
+Interger 6 : 1
+Interger 7 : 1
+Interger 8 : 1
+Interger 9 : 1
+Interger 10 : 1
+The Sum of 10 numbers: 10
+
+C:\Users\2021ict128\Desktop\IT1214\S10>java Main
+Enter 10 integer values:
+Interger 1 : 4
+Interger 2 : 1
+Interger 3 : k
+Exception Error!
+The Sum of 10 numbers: 5
+
+C:\Users\2021ict128\Desktop\IT1214\S10>javac SumOfUserInput.java
+SumOfUserInput.java:17: error: 'catch' without 'try'
+                                        catch(Exception e){
+                                        ^
+SumOfUserInput.java:11: error: 'try' without 'catch', 'finally' or resource declarations
+                        try{
+                        ^
+2 errors
+
+C:\Users\2021ict128\Desktop\IT1214\S10>javac SumOfUserInput.java
+
+C:\Users\2021ict128\Desktop\IT1214\S10>java Main
+Enter 10 integer values:
+Interger 1 : jng
+Exception Error!
+The Sum of 10 numbers: 0
+
+C:\Users\2021ict128\Desktop\IT1214\S10>javac SumOfUserInput.java
+
+C:\Users\2021ict128\Desktop\IT1214\S10>java Main
+Enter 10 integer values:
+Interger 1 : 10
+Interger 2 : 10
+Interger 3 : 20
+Interger 4 : 40
+Interger 5 : 80
+Interger 6 : 160
+Interger 7 : 320
+Interger 8 : 640
+Interger 9 : 1280
+Interger 10 : 2560
+The Sum of 10 numbers: 5120
